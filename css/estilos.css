@@ -1,0 +1,1702 @@
+/*****************GENERAL******************/
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fuentes/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+    font-family: "Josefin";
+    src: url("fuentes/Josefin_Sans/static/JosefinSans-Regular.ttf");      
+} 
+body {
+    margin: 0px;
+}
+/*****************GENERAL******************/
+
+
+
+
+
+/*****************SMARTPHONE******************/
+@media (max-width: 480px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    .index_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 395px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .index_main_img {
+        height: 125px;
+        width: 100%;
+        margin: 1px 0px;
+    }
+
+    /*la_empresa*/
+    .la_empresa_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 675px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .la_empresa_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div_img {
+        width: 300px;
+        height: 150px;
+        margin: 5px;
+    }
+    .section_article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div_quesillas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .quesillas {
+        font-family: "Josefin";
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .reg {
+        font-family: sans-serif ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .p_info_empresa {
+        font-family: "Josefin";
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .la_empresa_hr {
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border: solid 1px black;
+    }
+
+    /*productos*/
+    .productos_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .productos_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .productos_div_h2 {
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_gamers_oficina {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_gamers_oficina {
+        font-family: "Josefin";
+        margin: 5px;
+    }
+    .p_gamers_oficina {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    .hogar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_hogar {
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+    .productos_div_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .productos_div_h2_dktp {
+        display: none;
+        font-size: 30px;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_gamers_oficina_dktp {
+        display: none;
+        font-family: "Josefin";
+        margin: 5px;
+        text-align: right;
+    }
+    .p_gamers_oficina_dktp {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+        text-align: right;
+    }
+    .img_gamers_oficina_dktp {
+        display: none;
+        padding: 5px 10px 5px 5px;
+        border-right: solid 1px black;
+    }
+    .hogar_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar_dktp {
+        display: none;
+        padding: 5px 5px 5px 10px;
+        border-left: solid 1px black;
+    }
+    .h2_hogar_dktp {
+        display: none;
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar_dktp {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+    
+    /*gamers_oficina*/
+    .gamers_oficina_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .gamers_oficina_articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .gamers_oficina_divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina_img {
+        width: 150px;
+        height: 150px;
+        margin: 2.5px 5px;
+    }
+    .gamers_oficina_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*para_el_hogar*/
+    .para_el_hogar_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .hogar_articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .hogar_divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hogar_img {
+        width: 150px;
+        height: 150px;
+        margin: 2.5px 5px;
+    }
+    .hogar_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*contacto*/
+    .contacto_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .contacto_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 5px 10px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 10px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************SMARTPHONE******************/
+
+
+
+
+
+/*****************TABLET******************/
+@media (min-width: 481px) and (max-width: 1023px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    .index_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 770px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .index_main_img {
+        height: 250px;
+        width: 100%;
+        margin: 1px 0px;
+    }
+
+    /*la_empresa*/
+    .la_empresa_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 720px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .la_empresa_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div_img {
+        margin: 0px 5px 5px 5px;
+    }
+    .section_article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div_quesillas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .quesillas {
+        font-family: "Josefin";
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .reg {
+        font-family: sans-serif ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .p_info_empresa {
+        font-family: "Josefin";
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .la_empresa_hr {
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border: solid 1px black;
+    }
+
+    /*productos*/
+    .productos_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .productos_div {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .productos_div_h2 {
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_gamers_oficina {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_gamers_oficina {
+        font-family: "Josefin";
+        margin: 5px;
+    }
+    .p_gamers_oficina {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    .hogar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_hogar {
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+    .productos_div_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .productos_div_h2_dktp {
+        display: none;
+        font-size: 30px;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_gamers_oficina_dktp {
+        display: none;
+        font-family: "Josefin";
+        margin: 5px;
+        text-align: right;
+    }
+    .p_gamers_oficina_dktp {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+        text-align: right;
+    }
+    .img_gamers_oficina_dktp {
+        display: none;
+        padding: 5px 10px 5px 5px;
+        border-right: solid 1px black;
+    }
+    .hogar_dktp {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar_dktp {
+        display: none;
+        padding: 5px 5px 5px 10px;
+        border-left: solid 1px black;
+    }
+    .h2_hogar_dktp {
+        display: none;
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar_dktp {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+
+    /*gamers_oficina*/
+    .gamers_oficina_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .gamers_oficina_articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .gamers_oficina_divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina_img {
+        width: 150px;
+        height: 150px;
+        margin: 2.5px 5px;
+    }
+    .gamers_oficina_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*para_el_hogar*/
+    .para_el_hogar_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .hogar_articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .hogar_divs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hogar_img {
+        width: 150px;
+        height: 150px;
+        margin: 2.5px 5px;
+    }
+    .hogar_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*contacto*/
+    .contacto_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .contacto_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************TABLET******************/
+
+
+
+
+
+/*****************DESKTOP******************/
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    .index_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 920px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .index_main_img {
+        height: 300px;
+        width: 100%;
+        margin: 1px 0px;
+    }
+    
+    /*la_empresa*/
+    .la_empresa_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .la_empresa_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div_img {
+        margin: 0px 5px 5px 5px;
+    }
+    .section_article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div_quesillas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .quesillas {
+        font-family: "Josefin";
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .reg {
+        font-family: sans-serif ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .p_info_empresa {
+        font-family: "Josefin";
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .la_empresa_hr {
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border: solid 1px black;
+    }
+
+    /*productos*/
+    .productos_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .productos_div_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .productos_div_h2_dktp {
+        font-size: 30px;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_gamers_oficina_dktp {
+        font-family: "Josefin";
+        margin: 5px;
+        text-align: right;
+    }
+    .p_gamers_oficina_dktp {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px 0px 0px 70px;
+        text-align: right;
+    }
+    .img_gamers_oficina_dktp {
+        padding: 5px 10px 5px 5px;
+        border-right: solid 1px black;
+        height: 200px;
+        width: 200px;
+    }
+    .hogar_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar_dktp {
+        padding: 5px 5px 5px 10px;
+        border-left: solid 1px black;
+        height: 200px;
+        width: 200px;
+    }
+    .h2_hogar_dktp {
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar_dktp {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px 70px 0px 0px;
+        text-align: left;
+    }
+    /*no visible*/
+    .productos_div {
+        display: none;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .productos_div_h2 {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_gamers_oficina {
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_gamers_oficina {
+        display: none;
+        font-family: "Josefin";
+        margin: 5px;
+    }
+    .p_gamers_oficina {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    .hogar {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_hogar {
+        display: none;
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+
+    /*gamers_oficina*/
+    .gamers_oficina_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .gamers_oficina_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina_divs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_img {
+        margin: 5px 40px;
+    }
+    .gamers_oficina_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*para_el_hogar*/
+    .para_el_hogar_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .hogar_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hogar_divs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hogar_img {
+        margin: 5px 40px;
+    }
+    .hogar_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*contacto*/
+    .contacto_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .contacto_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+@media (min-width: 1200px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    .index_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1220px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .index_main_img {
+        height: 400px;
+        width: 100%;
+        margin: 1px 0px;
+    }
+    
+    /*la_empresa*/
+    .la_empresa_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .la_empresa_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .div_img {
+        margin: 0px 5px 5px 5px;
+    }
+    .section_article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .div_quesillas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .quesillas {
+        font-family: "Josefin";
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .reg {
+        font-family: sans-serif ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .p_info_empresa {
+        font-family: "Josefin";
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .la_empresa_hr {
+        margin-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border: solid 1px black;
+    }
+
+    /*productos*/
+    .productos_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .productos_div_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .productos_div_h2_dktp {
+        font-size: 30px;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_gamers_oficina_dktp {
+        font-family: "Josefin";
+        margin: 5px;
+        text-align: right;
+    }
+    .p_gamers_oficina_dktp {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px 0px 0px 70px;
+        text-align: right;
+    }
+    .img_gamers_oficina_dktp {
+        padding: 5px 10px 5px 5px;
+        border-right: solid 1px black;
+        height: 200px;
+        width: 200px;
+    }
+    .hogar_dktp {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_para_el_hogar_dktp {
+        padding: 5px 5px 5px 10px;
+        border-left: solid 1px black;
+        height: 200px;
+        width: 200px;
+    }
+    .h2_hogar_dktp {
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar_dktp {
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px 70px 0px 0px;
+        text-align: left;
+    }
+    /*no visible*/
+    .productos_div {
+        display: none;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .productos_div_h2 {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px;
+        margin: 5px 5px 10px 5px;
+        border-bottom: solid 2px black;
+    }
+    .productos_section {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .img_gamers_oficina {
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .h2_gamers_oficina {
+        display: none;
+        font-family: "Josefin";
+        margin: 5px;
+    }
+    .p_gamers_oficina {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    .hogar {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .h2_hogar {
+        display: none;
+        font-family: "Josefin";
+        margin: 10px 5px 5px 5px;
+    }
+    .p_hogar {
+        display: none;
+        font-family: "Josefin";
+        padding: 10px 5px 15px 5px;
+        margin: 0px;
+    }
+    /*no visible*/
+
+    /*gamers_oficina*/
+    .gamers_oficina_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .gamers_oficina_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamers_oficina_divs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gamers_oficina_img {
+        margin: 5px 40px;
+    }
+    .gamers_oficina_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*para_el_hogar*/
+    .para_el_hogar_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .hogar_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hogar_divs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .hogar_img {
+        margin: 5px 40px;
+    }
+    .hogar_h3 {
+        margin: 0px 5px;
+        font-family: "Josefin";
+        font-size: 25px;
+    }
+
+    /*contacto*/
+    .contacto_main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .contacto_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************DESKTOP******************/
