@@ -126,7 +126,7 @@ body {
         justify-content: center;
         height: 675px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .la_empresa_section {
         display: flex;
@@ -158,11 +158,31 @@ body {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
+        animation-name: quesillash2;
+        animation-duration: 1s;
+    }
+    @keyframes quesillash2 {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .reg {
-        font-family: sans-serif ;
+        font-family: sans-serif;
         font-size: 20px;
         margin-top: 5px;
+        animation-name: reg;
+        animation-duration: 1s;
+    }
+    @keyframes reg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .p_info_empresa {
         font-family: "Josefin";
@@ -554,7 +574,7 @@ body {
         justify-content: center;
         height: 720px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .la_empresa_section {
         display: flex;
@@ -584,11 +604,31 @@ body {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
+        animation-name: quesillash2;
+        animation-duration: 1s;
+    }
+    @keyframes quesillash2 {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .reg {
-        font-family: sans-serif ;
+        font-family: sans-serif;
         font-size: 20px;
         margin-top: 5px;
+        animation-name: reg;
+        animation-duration: 1s;
+    }
+    @keyframes reg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .p_info_empresa {
         font-family: "Josefin";
@@ -980,7 +1020,7 @@ body {
         justify-content: center;
         height: 700px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .la_empresa_section {
         display: flex;
@@ -1010,11 +1050,31 @@ body {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
+        animation-name: quesillash2;
+        animation-duration: 1s;
+    }
+    @keyframes quesillash2 {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .reg {
-        font-family: sans-serif ;
+        font-family: sans-serif;
         font-size: 20px;
         margin-top: 5px;
+        animation-name: reg;
+        animation-duration: 1s;
+    }
+    @keyframes reg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .p_info_empresa {
         font-family: "Josefin";
@@ -1025,8 +1085,12 @@ body {
         text-align: center;
     }
     .iframe {
-        width: 100%;
+        width: 50%;
         height: 300px;
+        transition: 1s;
+    }
+    iframe:hover {
+        width: 100%;
     }
     .la_empresa_hr {
         margin-top: 5px;
@@ -1393,7 +1457,7 @@ body {
         justify-content: center;
         height: 700px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .la_empresa_section {
         display: flex;
@@ -1423,11 +1487,31 @@ body {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 0px;
+        animation-name: quesillash2;
+        animation-duration: 1s;
+    }
+    @keyframes quesillash2 {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .reg {
-        font-family: sans-serif ;
+        font-family: sans-serif;
         font-size: 20px;
         margin-top: 5px;
+        animation-name: reg;
+        animation-duration: 1s;
+    }
+    @keyframes reg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     .p_info_empresa {
         font-family: "Josefin";
@@ -1438,8 +1522,12 @@ body {
         text-align: center;
     }
     .iframe {
-        width: 100%;
+        width: 50%;
         height: 300px;
+        transition: 1s;
+    }
+    iframe:hover {
+        width: 100%;
     }
     .la_empresa_hr {
         margin-top: 5px;
