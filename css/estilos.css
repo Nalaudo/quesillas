@@ -110,12 +110,22 @@ body {
         justify-content: center;
         height: 395px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .index_main_img {
         height: 125px;
         width: 100%;
         margin: 1px 0px;
+        animation-name: indeximg;
+        animation-duration: 1s;
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
 
     /*la_empresa*/
@@ -212,7 +222,7 @@ body {
         justify-content: center;
         height: 500px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .productos_div {
         display: flex;
@@ -343,7 +353,7 @@ body {
         justify-content: center;
         height: 500px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .gamers_oficina_articles {
         display: flex;
@@ -374,7 +384,7 @@ body {
         justify-content: center;
         height: 500px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .hogar_articles {
         display: flex;
@@ -405,7 +415,7 @@ body {
         justify-content: center;
         height: 400px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .contacto_form {
         display: flex;
@@ -558,12 +568,22 @@ body {
         justify-content: center;
         height: 770px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .index_main_img {
         height: 250px;
         width: 100%;
         margin: 1px 0px;
+        animation-name: indeximg;
+        animation-duration: 1s;
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2046px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
 
     /*la_empresa*/
@@ -658,7 +678,7 @@ body {
         justify-content: center;
         height: 450px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .productos_div {
         display: flex;
@@ -789,7 +809,7 @@ body {
         justify-content: center;
         height: 500px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .gamers_oficina_articles {
         display: flex;
@@ -820,7 +840,7 @@ body {
         justify-content: center;
         height: 500px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .hogar_articles {
         display: flex;
@@ -851,7 +871,7 @@ body {
         justify-content: center;
         height: 400px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .contacto_form {
         display: flex;
@@ -1004,12 +1024,22 @@ body {
         justify-content: center;
         height: 920px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .index_main_img {
         height: 300px;
         width: 100%;
         margin: 1px 0px;
+        animation-name: indeximg;
+        animation-duration: 1s;
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2398px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     
     /*la_empresa*/
@@ -1108,7 +1138,7 @@ body {
         justify-content: center;
         height: 450px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .productos_div_dktp {
         display: flex;
@@ -1237,7 +1267,7 @@ body {
         justify-content: center;
         height: 350px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .gamers_oficina_articles {
         display: flex;
@@ -1295,7 +1325,7 @@ body {
         justify-content: center;
         height: 400px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .contacto_form {
         display: flex;
@@ -1441,12 +1471,22 @@ body {
         justify-content: center;
         height: 1220px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .index_main_img {
         height: 400px;
         width: 100%;
         margin: 1px 0px;
+        animation-name: indeximg;
+        animation-duration: 1s;
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2400px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
     
     /*la_empresa*/
@@ -1545,7 +1585,7 @@ body {
         justify-content: center;
         height: 450px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .productos_div_dktp {
         display: flex;
@@ -1674,7 +1714,7 @@ body {
         justify-content: center;
         height: 350px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .gamers_oficina_articles {
         display: flex;
@@ -1703,7 +1743,7 @@ body {
         justify-content: center;
         height: 350px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .hogar_articles {
         display: flex;
@@ -1732,7 +1772,7 @@ body {
         justify-content: center;
         height: 400px;
         width: 100%;
-        background-color: cadetblue;
+        background-image: radial-gradient(cadetblue, white);
     }
     .contacto_form {
         display: flex;
