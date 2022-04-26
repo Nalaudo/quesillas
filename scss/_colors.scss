@@ -1,0 +1,6 @@
+$gradientecolor1:cadetblue;
+$gradientecolor2: white;
+
+main {
+    background-image: radial-gradient($gradientecolor1, $gradientecolor2);
+}

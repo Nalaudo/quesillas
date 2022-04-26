@@ -1,0 +1,654 @@
+/*****************GENERAL******************/
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fuentes/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+    font-family: "Josefin";
+    src: url("fuentes/Josefin_Sans/static/JosefinSans-Regular.ttf");      
+} 
+body {
+    margin: 0px;
+}
+@import "colors";
+/*****************GENERAL******************/
+
+
+
+
+
+/*****************SMARTPHONE******************/
+@media (max-width: 480px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 395px;
+        width: 100%;
+        img {
+            height: 125px;
+            width: 100%;
+            margin: 1px 0px;
+            animation-name: indeximg;
+            animation-duration: 1s;
+        }
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-800px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 5px 10px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 10px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************SMARTPHONE******************/
+
+
+
+
+
+/*****************TABLET******************/
+@media (min-width: 481px) and (max-width: 1023px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 770px;
+        width: 100%;
+        img {
+            height: 250px;
+            width: 100%;
+            margin: 1px 0px;
+            animation-name: indeximg;
+            animation-duration: 1s;
+        }
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2046px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************TABLET******************/
+
+
+
+
+
+/*****************DESKTOP******************/
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 920px;
+        width: 100%;
+        img {
+            height: 300px;
+            width: 100%;
+            margin: 1px 0px;
+            animation-name: indeximg;
+            animation-duration: 1s;
+        }
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2398px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+
+@media (min-width: 1200px) {
+    /******************HEADER********************/
+    header {
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+    }
+    header div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    header h1 {
+        font-family: "Josefin";
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    header a {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*******************NAV********************/
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+    }
+    nav div {
+        display: flex;
+        justify-content: center;
+    }
+    .inicio {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 0px;
+        border-top: solid 2px black;
+    }
+    .la_empresa {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .productos {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    .contacto {
+        display: flex;
+        justify-content: center;
+        font-family: "Josefin";
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-top: solid 2px black;
+    }
+    
+    /******************MAIN********************/
+    /*index*/
+    main {
+        grid-area: main;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1220px;
+        width: 100%;
+        img {
+            height: 400px;
+            width: 100%;
+            margin: 1px 0px;
+            animation-name: indeximg;
+            animation-duration: 1s;
+        }
+    }
+    @keyframes indeximg {
+        from {
+            transform: translateX(-2400px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+    /******************FOOTER********************/
+    footer {
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div a {
+        width: 100px;
+        height: 100px;
+    }
+    footer div a img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    footer div span {
+        padding: 10px;
+        font-family: "Josefin";
+    }
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+    footer section div h3 {
+        margin: 10px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+    footer section div p {
+        margin: 5px 0px 5px 30px;
+        font-family: "Josefin";
+    }
+
+    /******************GRIDSxA********************/
+    #grids_area {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+}
+/*****************DESKTOP******************/
