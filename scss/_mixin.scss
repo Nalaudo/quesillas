@@ -1,0 +1,66 @@
+//HEADER
+@mixin header ($grid, $display, $justcont) {
+    grid-area: $grid;
+    display: $display;
+    justify-content: $justcont;
+}
+@mixin headerimg ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin headerh1 ($fontfam, $fontsize, $margin, $padding) {
+    font-family: $fontfam;
+    font-size: $fontsize;
+    margin: $margin;
+    padding: $padding;
+}
+
+//NAV
+@mixin nav ($grid, $display, $justcont) {
+    grid-area: $grid;
+    display: $display;
+    justify-content: $justcont;
+}
+@mixin navdiv ($display, $justcont) {
+    display: $display;
+    justify-content: $justcont;
+}
+@mixin sections ($display, $justcont, $fontfam, $fontsize, $paddtop, $paddbtm, $paddrgt, $paddlft, $bordertop) {
+    display: $display;
+    justify-content: $justcont;
+    font-family: $fontfam;
+    font-size: $fontsize;
+    padding-top: $paddtop;
+    padding-bottom: $paddbtm;
+    padding-right: $paddrgt;
+    padding-left: $paddlft;
+    border-top: $bordertop;
+}
+
+//FOOTER
+@mixin footer ($grid, $display, $flexdir) {
+    grid-area: $grid;
+    display: $display;
+    flex-direction: $flexdir;
+}
+@mixin footerdiv ($display, $flexdir) {
+    display: $display;
+    flex-direction: $flexdir;
+}
+@mixin footerimg ($width, $height, $padding) {
+    width: $width;
+    height: $height;
+    padding: $padding;
+}
+@mixin footerreg ($padd, $fontfam) {
+    padding: $padd;
+    font-family: $fontfam;
+}
+@mixin footersection ($display, $flexdir) {
+    display: $display;
+    flex-direction: $flexdir;
+}
+@mixin footerh3p ($margin, $fontfam) {
+    margin: $margin;
+    font-family: $fontfam;
+}

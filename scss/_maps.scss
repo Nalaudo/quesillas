@@ -1,0 +1,15 @@
+$nostock: (
+    padding: 1px,
+    borderstyle: solid,
+    borderwidth: 3px,
+    bordercolor: red,
+    crossout: line-through
+);
+
+#nostock {
+    padding: map-get($nostock, padding);
+    border-style: map-get($nostock, borderstyle);
+    border-width: map-get($nostock, borderwidth);
+    border-color: map-get($nostock, bordercolor);
+    text-decoration: map-get($nostock, crossout);
+}
